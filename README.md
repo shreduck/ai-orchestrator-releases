@@ -1,9 +1,7 @@
-# AI Orchestrator
+# AI Server Apps
 
-Runtime downloads for AI Orchestrator, a Java application for multi-user AI chat and orchestration with installed providers and MCP Workbench integration.
+Download the executable server and its SHA-256 checksum from [Releases](https://github.com/shreduck/aiserver-apps-releases/releases). Each release supports Windows, macOS, and Linux with Java 21 or newer.
 
-Download published binaries from [Releases](https://github.com/shreduck/ai-orchestrator-releases/releases). If that page is empty, no runtime has been published yet.
+Set `ORCH_ADMIN_PASSWORD` to a password of at least 12 characters before the first launch. Run `java -jar server-app-vX.Y.Z.jar`, substituting the downloaded filename. Open <http://127.0.0.1:10000/> and select **AI Chat**. The server stores application data relative to its working directory by default.
 
-The initial distribution is a portable executable JAR for Windows, macOS, and Linux, requiring Java 21 or newer. Each published JAR includes a separate SHA-256 checksum. Planned features are not necessarily available in a given release; consult its release notes.
-
-This repository contains public runtime releases. Private application source and build logs are maintained separately.
+This public repository hosts runtime downloads. Application source and build evidence are maintained privately.
